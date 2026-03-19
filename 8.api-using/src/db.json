@@ -3,7 +3,8 @@
     {
       "id": "1",
       "name": "enes12",
-      "password": "xx"
+      "password": "xx",
+      "postId": "3"
     },
     {
       "id": "2",
@@ -48,8 +49,7 @@
     {
       "id": "8d6b",
       "username": "Bİlal",
-      "passwoed": "3333"
+      "password": "3333"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
