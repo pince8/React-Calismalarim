@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "enes12",
+      "password": "xx"
+    },
+    {
+      "id": "2",
+      "name": "ali12",
+      "password": "yy"
+    },
+    {
+      "id": "2661",
+      "username": "Bİlal",
+      "passwoed": "3333"
+    },
+    {
+      "id": "2220",
+      "username": "Bİlal",
+      "passwoed": "3333"
+    },
+    {
+      "id": "f005",
+      "username": "Bİlal",
+      "passwoed": "3333"
+    },
+    {
+      "id": "0579",
+      "username": "Bİlal",
+      "passwoed": "3333"
+    },
+    {
+      "id": "45cc",
+      "username": "Bİlal",
+      "passwoed": "3333"
+    },
+    {
+      "id": "4311",
+      "username": "Bİlal",
+      "passwoed": "3333"
+    },
+    {
+      "id": "02b7",
+      "username": "Bİlal",
+      "passwoed": "3333"
+    },
+    {
+      "id": "8d6b",
+      "username": "Bİlal",
+      "passwoed": "3333"
+    },
+    {
+      "username": "yakup",
+      "password": "1234",
+      "id": "e4ee"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
