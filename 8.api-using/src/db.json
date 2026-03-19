@@ -49,11 +49,6 @@
       "id": "8d6b",
       "username": "Bİlal",
       "passwoed": "3333"
-    },
-    {
-      "username": "yakup",
-      "password": "1234",
-      "id": "e4ee"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

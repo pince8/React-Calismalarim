@@ -25,7 +25,13 @@ function App() {
   const updateUser = async (userId, updateUser) => {
     await axios.put(`${BASE_URL}/users/${userId}`, updateUser);
   }
+
+  const deleteUserById = async (userId) => {
+    const deletedResponse = await axios.delete(`${BASE_URL}/users/${userId}`)
+    console.log(deletedResponse.data);
+  }
   useEffect(() => {
+    deleteUserById("e4ee");
     //getAllUsers();
     //getUserById(2);
 
