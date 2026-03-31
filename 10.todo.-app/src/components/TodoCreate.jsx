@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css';
-
+import { useState } from 'react'
 
 function TodoCreate({ onTodoCreate }) {
 
@@ -11,11 +11,12 @@ function TodoCreate({ onTodoCreate }) {
         if (!newTodo) return;
 
         const request = {
-            id: Date.now,
+            id: Math.floor(Math.random() * 33333),
             content: newTodo
         }
 
         onTodoCreate(request);
+        setNewTodo('');
 
     }
 

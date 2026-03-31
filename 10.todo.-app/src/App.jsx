@@ -17,8 +17,10 @@ function App() {
   return (
     <div className='App'>
       <div className='main'>
+        {/* /*onTodoCreate adından bir props tanımlıyoruz*/
+        /*createTodo yu da ona prop olarak geçiyoruz*/}
         <TodoCreate onTodoCreate={createTodo} />
-        <TodoList />
+        <TodoList todos={todos} />
 
       </div>
     </div>
