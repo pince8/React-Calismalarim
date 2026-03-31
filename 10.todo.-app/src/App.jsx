@@ -10,10 +10,14 @@ import TodoList from './components/TodoList'
 function App() {
   const [todos, setTodos] = useState([])
 
+  const createTodo = (newTodo) => {
+    setTodos([...todos, newTodo])
+  }
+
   return (
     <div className='App'>
       <div className='main'>
-        <TodoCreate />
+        <TodoCreate onTodoCreate={createTodo} />
         <TodoList />
 
       </div>
